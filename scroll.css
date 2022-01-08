@@ -1,0 +1,23 @@
+body{
+    color:white;
+    font-size: 40px;
+}
+.message{
+    text-align: center;
+}
+
+.message-head, .message-body{
+    padding: 25px 25px 25px 30px;
+}
+
+.message-head{
+    background-color:  #A64600;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+.message-body{
+    background-color: #00675C;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
