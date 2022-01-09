@@ -1,3 +1,26 @@
+@keyframes message-head-color-animatiom{
+    from {background-color: #b31c1c;}
+    12%  {background-color: #b3971c;}
+    24%  {background-color: #2eb31c;}
+    36%  {background-color: #1cb386;}
+    48%  {background-color: #1c88b3;}
+    60%  {background-color: #1e1cb3;}
+    72%  {background-color: #5d1cb3;}
+    84%  {background-color: #b31ca6;}
+    to   {background-color: #b31c1c;}
+}
+@keyframes message-body-color-animatiom{
+    from {background-color: #b31c1c;}
+    12%  {background-color: #b31ca6;}
+    24%  {background-color: #5d1cb3;}
+    36%  {background-color: #1e1cb3;}
+    48%  {background-color: #1c88b3;}
+    60%  {background-color: #1cb386;}
+    72%  {background-color: #2eb31c;}
+    84%  {background-color: #b3971c;}
+    to   {background-color: #b31c1c;}
+}
+
 body{
     color:white;
     font-size: 40px;
@@ -7,17 +30,18 @@ body{
 }
 
 .message-head, .message-body{
-    padding: 25px 25px 25px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .message-head{
-    background-color:  #A64600;
+    animation: message-head-color-animatiom 20s infinite;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
 }
 
 .message-body{
-    background-color: #00675C;
+    animation: message-body-color-animatiom 20s infinite;;
     border-bottom-left-radius:20px;
     border-bottom-right-radius:20px;
 }
